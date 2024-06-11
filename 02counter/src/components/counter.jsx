@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function App() {
+function Counter() {
   let showToast = (text, bg) => {
     Toastify({
       text: text,
@@ -24,7 +24,7 @@ function App() {
 
   // Function to conditionaly increase the value of count
   let increaseValue = () => {
-    count < 20 ? setCount((count) => count + 1) : showToast("You have reached the max value.", "linear-gradient(to right, #00b09b, #96c93d)" );
+    count < 5 ? setCount((count) => count + 1) : showToast("You have reached the max value.", "linear-gradient(to right, #00b09b, #96c93d)" );
   };
 
   // Function to conditionaly Decrease the value of count
@@ -45,6 +45,6 @@ function App() {
   );
 }
 
-export default App;
+export default Counter;
 
 
