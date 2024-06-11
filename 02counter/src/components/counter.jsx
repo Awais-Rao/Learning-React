@@ -24,7 +24,7 @@ function Counter() {
 
   // Function to conditionaly increase the value of count
   let increaseValue = () => {
-    count < 5 ? setCount((count) => count + 1) : showToast("You have reached the max value.", "linear-gradient(to right, #00b09b, #96c93d)" );
+    count < 20 ? setCount((count) => count + 1) : showToast("You have reached the max value.", "linear-gradient(to right, #00b09b, #96c93d)" );
   };
 
   // Function to conditionaly Decrease the value of count
