@@ -35,7 +35,7 @@ function Counter() {
   return (
     <>
       <h1>Counter App</h1>
-      <p>Total counts are: {count}</p>
+      <h2>Total counts are: {count}</h2>
 
       <button onClick={increaseValue}>Add Value</button>
       <button onClick={decreaseValue} style={{ marginLeft: "10px" }}>
