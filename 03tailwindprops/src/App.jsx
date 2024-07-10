@@ -12,12 +12,12 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <Card title="Lenovo Ideapad 330s" image={lenovo_img} />
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <Card title="Lenovo Ideapad 330s" image={lenovo_img} />
         <Card title="Lenovo Ideapad 330s" image={lenovo_img} />
         <Card title="Lenovo Ideapad 330s" image={lenovo_img} />
       </div>
+
     </>
   );
 }
