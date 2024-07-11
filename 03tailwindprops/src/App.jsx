@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+// import "./App.css";
 import Card from "./components/card";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <Card title="Macbook Pro" image={macbook_img} />
-        <Card title="Lenovo Ideapad 330s" image={dell_img} />
         <Card title="Lenovo Ideapad 330s" image={lenovo_img} />
+        <Card title="Lenovo Ideapad 330s" image={dell_img} />
       </div>
     </>
   );
